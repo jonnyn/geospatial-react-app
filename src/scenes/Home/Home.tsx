@@ -51,7 +51,7 @@ const Home = () => {
         <AddStation />
       </Flex>
       <Table flex="1" variant="striped" size="lg">
-        <TableCaption>Station List</TableCaption>
+        <TableCaption>Electric Vehicle Charging Stations</TableCaption>
         <Thead>
           <Tr>
             <Th>Station Id</Th>

@@ -89,16 +89,16 @@ const AddStation = () => {
                 />
               </InputGroup>
               <InputGroup size="md">
-                <InputLeftAddon w="30%" children="Lat, Long" />
-                <Input
-                  placeholder="Latitude"
-                  value={newStation.latitude}
-                  onChange={(x) => handleChange("latitude", x.target.value)}
-                />
+                <InputLeftAddon w="30%" children="Long, Lat" />
                 <Input
                   placeholder="Longitude"
                   value={newStation.longitude}
                   onChange={(x) => handleChange("longitude", x.target.value)}
+                />
+                <Input
+                  placeholder="Latitude"
+                  value={newStation.latitude}
+                  onChange={(x) => handleChange("latitude", x.target.value)}
                 />
               </InputGroup>
               <InputGroup size="md">

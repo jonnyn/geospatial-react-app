@@ -105,16 +105,16 @@ const UpdateStation = ({ updateId }: { updateId: number | undefined }) => {
                 />
               </InputGroup>
               <InputGroup size="md">
-                <InputLeftAddon w="30%" children="Lat, Long" />
-                <Input
-                  placeholder="Latitude"
-                  value={pendingStation.latitude}
-                  onChange={(x) => handleChange("latitude", x.target.value)}
-                />
+                <InputLeftAddon w="30%" children="Long, Lat" />
                 <Input
                   placeholder="Longitude"
                   value={pendingStation.longitude}
                   onChange={(x) => handleChange("longitude", x.target.value)}
+                />
+                <Input
+                  placeholder="Latitude"
+                  value={pendingStation.latitude}
+                  onChange={(x) => handleChange("latitude", x.target.value)}
                 />
               </InputGroup>
               <InputGroup size="md">
