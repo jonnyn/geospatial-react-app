@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm i -g yarn
+      - yarn install
+      - echo Node version `node -v`
+  build:
+    commands:
+      - yarn build
+
+cache:
+  paths:
+    - node_modules/**/*
+    - build/**/*
+    - /usr/local/lib/node_modules/**/*
