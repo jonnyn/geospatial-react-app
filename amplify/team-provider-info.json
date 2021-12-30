@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-geospatialreactapp-dev-124332-authRole",
+      "UnauthRoleArn": "arn:aws:iam::703100725266:role/amplify-geospatialreactapp-dev-124332-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::703100725266:role/amplify-geospatialreactapp-dev-124332-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-geospatialreactapp-dev-124332-deployment",
+      "UnauthRoleName": "amplify-geospatialreactapp-dev-124332-unauthRole",
+      "StackName": "amplify-geospatialreactapp-dev-124332",
+      "StackId": "arn:aws:cloudformation:us-west-2:703100725266:stack/amplify-geospatialreactapp-dev-124332/fe7c5d20-68e7-11ec-8558-06ce0b9b3ca3",
+      "AmplifyAppId": "d2fc816r53w334"
+    },
+    "categories": {
+      "auth": {
+        "geospatialreactapp8cdf963b": {},
+        "true": {}
+      }
+    }
+  }
+}
